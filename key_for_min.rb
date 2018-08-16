@@ -8,6 +8,6 @@ def key_for_min_value(name_hash)
     next_value = name_hash.to_a[i+1].nil? ? 0 : name_hash.to_a[i+1]
     name_hash.delete_if name_hash[i] > next_value
 
-    name_hash.first_key
+    #name_hash.first_key
   end
 end
