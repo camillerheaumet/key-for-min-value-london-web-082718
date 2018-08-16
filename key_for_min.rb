@@ -4,8 +4,9 @@
 def key_for_min_value(name_hash)
   if name_hash.empty?
 
-  else name_hash.each do |key, value|
-    if
+  else name_hash.each_with_index do |value, index|
+    if name_hash[ i ] > name_hash[ i + 1 ]
+      
 
   end
 end
